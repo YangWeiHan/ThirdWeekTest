@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/footer_iv_icon"
+        android:src="@color/colorAccent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:id="@+id/footer_iv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/footer_iv_icon"
+        android:text="sfsfsdf"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/footer_iv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/footer_iv_name"
+        app:layout_constraintTop_toBottomOf="@id/footer_iv_name"
+        android:layout_marginTop="15dp"
+        android:textSize="28sp"
+        android:textColor="@color/colorAccent"
+        android:text="sdfs "
+        />
+</android.support.constraint.ConstraintLayout>
